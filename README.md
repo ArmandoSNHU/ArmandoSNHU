@@ -1,44 +1,43 @@
 # Armando Gomez
 
-AI systems, network operations, data analytics, and cybersecurity projects focused on practical automation, governed reporting, and IT operations.
+I ship applied-AI systems end to end — and keep them tested, safe, and explainable. Background in network operations and Windows infrastructure, now focused on multi-agent tooling, local LLMs, and cloud automation. Targeting forward-deployed / AI engineering.
 
 [![Portfolio](https://img.shields.io/badge/Portfolio-gomeztech.dev-0f766e)](https://gomeztech.dev)
 [![GitHub](https://img.shields.io/badge/GitHub-ArmandoSNHU-24292f)](https://github.com/ArmandoSNHU)
-[![Availability](https://img.shields.io/badge/Open_to-technical_roles-2563eb)](https://github.com/ArmandoSNHU)
+[![Open to](https://img.shields.io/badge/Open_to-forward--deployed_%2F_AI_%2F_cloud_roles-2563eb)](https://gomeztech.dev)
 
 ## Focus Areas
 
-- AI-assisted systems and workflow automation
-- Network operations, helpdesk engineering, and Windows infrastructure
-- Data analysis, dashboards, SQL reporting, and governance
-- Security operations tooling, incident documentation, and detection labs
-- Clean portfolio documentation for reproducible technical projects
+- Applied AI — multi-agent pipelines, local LLMs (Ollama), structured outputs, evaluations
+- Forward-deployed engineering — shipping AI into real systems, safely, backed by tests
+- Cloud &amp; DevSecOps — AWS, Terraform, policy-as-code, CI security gates
+- Windows infrastructure &amp; identity — Active Directory, Entra ID, Group Policy
+- Security operations tooling and clean, reproducible documentation
 
 ## Featured Work
 
 | Project | What it demonstrates | Stack |
 | --- | --- | --- |
-| [AI Helpdesk Triage Engine](https://github.com/ArmandoSNHU/ai-helpdesk-triage-engine) | Explainable IT ticket classification, priority scoring, routing, SLA targets, redaction signals, and tests | Python, CLI, JSON, unittest |
-| [Cloud Cost Guardrails](https://github.com/ArmandoSNHU/cloud-cost-guardrails) | Provider-neutral FinOps and cloud security policy checks for sanitized inventory exports | Python, policy-as-code, AWS/Azure/GCP modeling |
-| [Ops Runbook Automation Kit](https://github.com/ArmandoSNHU/ops-runbook-automation-kit) | Safe runbook validation, execution checks, and Markdown handoff reporting | Python, IT operations, automation |
-| [ARGOS-bridge](https://github.com/ArmandoSNHU/ARGOS-bridge) | Governed reporting workflow for Banner-style institutional SQL assets | Python, SQL, CLI, tests |
-| [IT Helpdesk Lab 2026](https://github.com/ArmandoSNHU/IT-helpdesk-lab-2026) | Windows Server, Active Directory, Group Policy, patching, identity, and ticketing lab | Windows Server, Hyper-V, AD DS, PowerShell |
-| [SOC Toolkit](https://github.com/ArmandoSNHU/SOC-Toolkit) | Security operations tools for log review, IOC lookup, timelines, reports, and playbooks | Python, detection workflows |
+| [SERK](https://github.com/ArmandoSNHU/SERK_WEB) | 20-lane, zero-dependency agent pipeline that audits sites for secrets, accessibility, performance, and SEO — 106 tests, CI-gated, secrets redacted | TypeScript, Node, zero deps |
+| [AI Code Review](https://github.com/ArmandoSNHU/ai-code-review) | Four specialist reviewers run in parallel on local LLMs, then an aggregator synthesizes a severity-graded report; REST API, no keys | Python, Ollama, multi-agent |
+| [FDE Dashboard](https://github.com/ArmandoSNHU/FDE_Dashboard) | Role-scoped MCP server with prompt-injection defenses, 173 tests, and an eval harness lifting safe decisions 45.9% → 94.6% | Python, MCP, evals |
+| [AI Ticket-to-Code](https://github.com/ArmandoSNHU/ai-ticket-to-code) | 5-stage agentic pipeline: ticket → design → code → tests → PR, using a multi-model local-LLM strategy | Python, Ollama |
+| [AWS Terraform Lab](https://github.com/ArmandoSNHU/aws-terraform-lab-2026) | Full AWS environment as code — refuses `0.0.0.0/0` SSH, IMDSv2 required, least-privilege IAM, tfsec in CI | Terraform, AWS, tfsec |
+| [IT Helpdesk Lab 2026](https://github.com/ArmandoSNHU/IT-helpdesk-lab-2026) | Windows Server + Active Directory, GPOs, WSUS, Entra ID hybrid identity, and ServiceNow ITSM | Windows Server, AD, PowerShell |
 
 ## Technical Toolbox
 
-**Languages:** Python, JavaScript, SQL, PowerShell, HTML, CSS  
-**Data and reporting:** pandas, matplotlib, Power BI, SQL report design, data documentation  
-**Infrastructure:** Windows Server, Active Directory, DNS, DHCP, Group Policy, Hyper-V  
-**Security operations:** log parsing, IOC lookup, incident timelines, playbook generation  
-**Engineering practices:** Git, GitHub, CLI design, unit testing, README-first documentation
+**Languages:** Python, TypeScript, JavaScript, SQL, PowerShell  
+**Applied AI:** local LLMs (Ollama), multi-agent orchestration, structured/JSON outputs, evaluations, MCP, FastAPI  
+**Cloud &amp; DevSecOps:** AWS (VPC, EC2, S3, IAM), Terraform, tfsec, policy-as-code, GitHub Actions CI  
+**Infrastructure:** Windows Server, Active Directory, Entra ID, DNS, DHCP, Group Policy, Hyper-V  
+**Practice:** unit testing, CLI design, README-first documentation, least-privilege by default
 
 ## Repository Standards
 
 Public repositories in this portfolio are maintained with:
 
 - A clear README that explains purpose, setup, usage, verification, and project structure.
-- A `codex.md` handoff file for future AI-assisted maintenance.
 - Synthetic or sample data only; no production records, credentials, or sensitive information.
 - Reproducible commands for installation, testing, and local execution.
 - Professional descriptions and topics so projects are understandable from GitHub search and pinned cards.
