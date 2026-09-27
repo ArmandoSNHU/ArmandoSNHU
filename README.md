@@ -2,7 +2,7 @@
 
 AI systems, network operations, data analytics, and cybersecurity projects focused on practical automation, governed reporting, and IT operations.
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-gomezdev.tech-0f766e)](https://gomezdev.tech)
+[![Portfolio](https://img.shields.io/badge/Portfolio-gomeztech.dev-0f766e)](https://gomeztech.dev)
 [![GitHub](https://img.shields.io/badge/GitHub-ArmandoSNHU-24292f)](https://github.com/ArmandoSNHU)
 [![Availability](https://img.shields.io/badge/Open_to-technical_roles-2563eb)](https://github.com/ArmandoSNHU)
 
@@ -45,6 +45,6 @@ Public repositories in this portfolio are maintained with:
 
 ## Contact
 
-- Portfolio: [gomezdev.tech](https://gomezdev.tech)
+- Portfolio: [gomeztech.dev](https://gomeztech.dev)
 - GitHub: [@ArmandoSNHU](https://github.com/ArmandoSNHU)
 - Location: Remote / Laredo, TX
