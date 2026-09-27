@@ -22,8 +22,8 @@ I ship applied-AI systems end to end — and keep them tested, safe, and explain
 | [AI Code Review](https://github.com/ArmandoSNHU/ai-code-review) | Four specialist reviewers run in parallel on local LLMs, then an aggregator synthesizes a severity-graded report; REST API, no keys | Python, Ollama, multi-agent |
 | [FDE Dashboard](https://github.com/ArmandoSNHU/FDE_Dashboard) | Role-scoped MCP server with prompt-injection defenses, 173 tests, and an eval harness lifting safe decisions 45.9% → 94.6% | Python, MCP, evals |
 | [AI Ticket-to-Code](https://github.com/ArmandoSNHU/ai-ticket-to-code) | 5-stage agentic pipeline: ticket → design → code → tests → PR, using a multi-model local-LLM strategy | Python, Ollama |
+| [Secure City Analytics](https://github.com/ArmandoSNHU/Secure-City-Analytics) | Role-based public-safety analytics — React 18 + TypeScript (strict), 3-role access control, 19 tests, accessible charts, CI/CD to a [live demo](https://armandosnhu.github.io/Secure-City-Analytics/) | React, TypeScript, Vite |
 | [AWS Terraform Lab](https://github.com/ArmandoSNHU/aws-terraform-lab-2026) | Full AWS environment as code — refuses `0.0.0.0/0` SSH, IMDSv2 required, least-privilege IAM, tfsec in CI | Terraform, AWS, tfsec |
-| [IT Helpdesk Lab 2026](https://github.com/ArmandoSNHU/IT-helpdesk-lab-2026) | Windows Server + Active Directory, GPOs, WSUS, Entra ID hybrid identity, and ServiceNow ITSM | Windows Server, AD, PowerShell |
 
 ## Technical Toolbox
 
